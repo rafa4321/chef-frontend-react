@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-// IMPORTA AQUÍ EL COMPONENTE PRINCIPAL DE TU APP (ej: App.js, Main.js, etc.)
-// Si no tienes uno, tendrás que crearlo, pero por ahora asumiremos App.js:
-import App from './App'; 
+import App from './App'; // Asegúrate de que este archivo App.js esté en src/
 
 ReactDOM.render(
   <React.StrictMode>
