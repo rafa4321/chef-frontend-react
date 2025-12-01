@@ -3,15 +3,9 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>Chef Frontend App: ¡Despliegue Exitoso!</h1>
-        <p>El código de tu aplicación principal se cargará aquí.</p>
-      </header>
-      <main>
-        {/* Aquí puedes empezar a añadir tus componentes */}
-      </main>
+      <h1>¡El Despliegue Finalmente Funcionará!</h1>
+      {/* Tu código de aplicación va aquí */}
     </div>
   );
 }
-
 export default App;
