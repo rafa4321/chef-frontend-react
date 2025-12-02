@@ -1,0 +1,33 @@
+/*
+  Estilos globales para centrar y dar un fondo a la aplicación
+*/
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f3f4f6; /* Fondo gris claro */
+}
+
+/* Estilos de Burbujas de Mensaje */
+
+.user-message {
+    /* Color de fondo y texto del usuario (rojo oscuro) */
+    background-color: #991b1b;
+    color: white;
+    /* Bordes redondeados: Arriba-Izq, Arriba-Der, Abajo-Der, Abajo-Izq */
+    border-radius: 18px 18px 0 18px;
+    /* Mantiene los saltos de línea y espacios en el mensaje */
+    white-space: pre-wrap;
+}
+
+.bot-message {
+    /* Color de fondo y texto del bot (blanco/crema) */
+    background-color: #fef3c7;
+    color: #1f2937;
+    /* Bordes redondeados: Arriba-Izq, Arriba-Der, Abajo-Der, Abajo-Izq */
+    border-radius: 18px 18px 18px 0;
+    /* Mantiene los saltos de línea y espacios */
+    white-space: pre-wrap;
+}
+
+/* Nota: La animación de puntos de carga (typing-dot) está definida en el código CSS anterior de la conversación
+          pero la hemos simplificado en App.js usando clases de Tailwind (animate-pulse) para mayor robustez
+          en el entorno de compilación. */
