@@ -1,0 +1,67 @@
+/*
+  Estilos globales para centrar y dar un fondo a la aplicación
+  (Puedes omitir estos si ya tienes estilos en index.css)
+*/
+body {
+    font-family: sans-serif;
+    background-color: #f3f4f6; /* Fondo gris claro */
+    /* Asegura que el contenido se centre si el body no tiene la altura completa */
+}
+
+.chat-container {
+    /* Altura total del contenedor del chatbox dentro de la pantalla */
+    height: 90vh;
+    /* Las propiedades de ancho máximo, fondo blanco y sombra se manejan en App.js con clases de Tailwind */
+}
+
+/* ----------------------------------- */
+/* Estilos de Burbujas de Mensaje */
+/* ----------------------------------- */
+
+.user-message {
+    /* Color de fondo y texto del usuario (rojo oscuro) */
+    background-color: #991b1b;
+    color: white;
+    /* Bordes redondeados: Arriba-Izq, Arriba-Der, Abajo-Der, Abajo-Izq */
+    border-radius: 18px 18px 0 18px;
+    /* Mantiene los saltos de línea y espacios en el mensaje */
+    white-space: pre-wrap;
+}
+
+.bot-message {
+    /* Color de fondo y texto del bot (amarillo muy claro/crema) */
+    background-color: #fef3c7;
+    color: #1f2937;
+    /* Bordes redondeados: Arriba-Izq, Arriba-Der, Abajo-Der, Abajo-Izq */
+    border-radius: 18px 18px 18px 0;
+    /* Mantiene los saltos de línea y espacios */
+    white-space: pre-wrap;
+}
+
+/* ----------------------------------- */
+/* Animación de 'Escribiendo' (Loading) */
+/* ----------------------------------- */
+
+.typing-dot {
+    /* Aplica la animación definida abajo */
+    animation: typing 1.4s infinite ease-in-out both;
+}
+
+/* Retrasos para que los puntos se muevan secuencialmente */
+.typing-dot:nth-child(1) {
+    animation-delay: -0.32s;
+}
+
+.typing-dot:nth-child(2) {
+    animation-delay: -0.16s;
+}
+
+/* Definición de la animación de los puntos */
+@keyframes typing {
+    0%, 80%, 100% {
+        transform: scale(0); /* Punto invisible */
+    }
+    40% {
+        transform: scale(1); /* Punto visible */
+    }
+}
