@@ -5,7 +5,7 @@ import './App.css';
 // *** ⚠️ VALOR CRÍTICO: REEMPLAZA CON TU URL DE RENDER.COM ⚠️ ***
 // *************************************************************
 // Ejemplo: "https://sabor-expres-backend-abcdef.onrender.com"
-const BACKEND_URL = "https://[TU-URL-DE-RENDER].onrender.com"; 
+const BACKEND_URL = "https://chef-backend-express.onrender.com"; 
 // *************************************************************
 
 function App() {
