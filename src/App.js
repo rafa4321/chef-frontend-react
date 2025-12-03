@@ -8,6 +8,7 @@ import './App.css';
 const BACKEND_URL = "https://chef-backend-express.onrender.com"; 
 // *************************************************************
 
+
 function App() {
   const [messages, setMessages] = useState([
     { text: "¡Hola! Soy Sabor Expres. 🍳 ¿Qué cocinamos hoy?", sender: 'bot' }
