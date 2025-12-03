@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css'; 
+// import './App.css'; 
 
 // *************************************************************
 // *** ⚠️ VALOR CRÍTICO: REEMPLAZA CON TU URL DE RENDER.COM ⚠️ ***
