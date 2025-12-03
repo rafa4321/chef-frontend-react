@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Navbar'; 
 
 // Ya no es necesario importar './App.css'; 
-// Usaremos estilos en línea o en componentes individuales como Navbar.js
+// El código de React es limpio y modular.
 
 function App() {
   return (
@@ -20,8 +20,6 @@ function App() {
           El frontend (React) está listo para conectarse a tu backend (Express).
           Ahora podemos empezar a añadir el componente de lista de recetas.
         </p>
-        
-        {/* Aquí irán otros componentes como RecipeList */}
         
       </main>
       
